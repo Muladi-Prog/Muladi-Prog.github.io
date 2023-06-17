@@ -8,6 +8,26 @@
 (function() {
   "use strict";
 
+
+  const accessToken = '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';
+  const username = 'muladi-prog';
+  
+  fetch(`https://api.github.com/users/${username}`, {
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+    },
+  })
+    .then(response => response.json())
+    .then(data => {
+      // Process the retrieved data
+      console.log(data);
+    })
+    .catch(error => {
+      // Handle any errors
+      console.error(error);
+    });
+  
+
   /**
    * Easy selector helper function
    */

@@ -851,6 +851,7 @@ section {
   padding: 30px;
   background: #fff;
   width: 100%;
+  border-radius: 25px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -913,6 +914,9 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
+.contact .info .linkedin:hover i,
+.contact .info .git:hover i,
+.contact .info .kaggle:hover i,
 .contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
@@ -1104,3 +1108,4 @@ section {
     padding-right: 20px 15px;
   }
 }
+
