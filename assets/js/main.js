@@ -5,7 +5,6 @@
   "use strict";
  
 
-  require('dotenv').config();
 
   /**
    * Easy selector helper function
