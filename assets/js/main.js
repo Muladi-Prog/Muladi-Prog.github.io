@@ -1,32 +1,11 @@
-/**
-* Template Name: iPortfolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+
+
 (function() {
   "use strict";
+ 
 
-
-  const accessToken = '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';
-  const username = 'muladi-prog';
-  
-  fetch(`https://api.github.com/users/${username}`, {
-    headers: {
-      Authorization: `Bearer ${accessToken}`,
-    },
-  })
-    .then(response => response.json())
-    .then(data => {
-      // Process the retrieved data
-      console.log(data);
-    })
-    .catch(error => {
-      // Handle any errors
-      console.error(error);
-    });
-  
+  require('dotenv').config();
 
   /**
    * Easy selector helper function
