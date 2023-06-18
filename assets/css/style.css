@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: whitesmoke;
   overflow-y: auto;
 }
 
@@ -87,7 +87,8 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  height: 110px;
+  /* border: 8px solid #00a6ff; */
 }
 
 #header .profile h1 {
@@ -176,7 +177,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #1f1f1f;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -195,7 +196,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(0, 162, 255);
 }
 
 .nav-menu a:hover i,
@@ -531,12 +532,13 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  /* border: 1px black solid; */
+
   
   margin-bottom: 30px;
 }
 
 .portfolio #portfolio-flters {
+  
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -547,6 +549,7 @@ section {
 }
 
 .portfolio #portfolio-flters li {
+  
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
